@@ -15,6 +15,8 @@ This repository is systematically organized into core modules to track distinct 
 
 ### 📑 1. Core Learning Logs
 *   [01-Pre-Security-Core-Modules.md](./01-Pre-Security-Core-Modules.md) — Comprehensive deep dives into Network Fundamentals, Web Mechanics, and System Virtualization.
+*   ### 📑 2. Daily Execution Logs (June 2026)
+   [06-16-2026-OS-Windows-Fundamentals.md](./logs/06-16-2026-OS-Windows-Fundamentals.md) — Deep dive into OS architecture and Windows systems administration.
 
 ### 🔍 2. Advanced Security Operations (Upcoming)
 *   `[02-SOC-Incident-Response.md]` — Traffic analysis (Wireshark), event investigation, and endpoint defensive log analysis.
