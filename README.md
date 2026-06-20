@@ -5,8 +5,8 @@ Welcome to my technical proof-of-work portfolio. I am a dedicated cybersecurity 
 ## 🏆 Certifications & Badges
 *This section houses verified credentials, active exam targets, and platform achievements.*
 
-[![TryHackMe Badge](https://tryhackme-badges.s3.amazonaws.com/jahir.sec.png)](https://tryhackme.com/p/jahir.sec)
-| [View THM Profile](https://tryhackme.com/p/jahir.sec)
+[View THM Profile](https://tryhackme.com/p/jahir.sec)
+| [![Badges](https://tryhackme-badges.s3.amazonaws.com/jahir.sec.png)](https://tryhackme.com/p/jahir.sec)
 
 *   **[View Certification Vault](./certifications/)**
 *   **CompTIA Security+ (SY0-701)** — *Target Date: August 2, 2026*
