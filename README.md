@@ -1,29 +1,37 @@
-# Comprehensive Cybersecurity & Infrastructure Notes
+# 🛡️ InfoSec Engineering Vault
 
-Welcome to my technical repository. This space serves as a live documentation hub for my hands-on security training, structural network analysis, and system administration logs. 
+Welcome to my technical proof-of-work portfolio. I am a dedicated cybersecurity analyst and infrastructure engineer, systematically documenting my hands-on execution across network defense, system administration, and security automation.
 
-## 🛡️ Current Objectives & Certifications
-*   **CompTIA Security+ (SY0-701)** — Comprehensive theory, risk governance, and cryptographic systems execution. (Exam Date: August 2, 2026)
-*   **TryHackMe SEC0 (Pre-Security)** — Validating structural core fundamentals.
-*   **SOC Level 1 Path** — Enterprise defensive infrastructure analysis, SIEM log triage, and incident response mechanics.
+## 🏆 Certifications & Badges
+*This section houses verified credentials, active exam targets, and platform achievements.*
+*   **[View Certification Vault](./certifications/)**
+*   **CompTIA Security+ (SY0-701)** — *Target Date: August 2, 2026*
+*   **TryHackMe SEC0 (Pre-Security)** — *Path Completion Pending*
+*   **SOC Level 1** — *Active Track*
 
 ---
 
-## 📂 Repository Architecture
+## 📊 Master Operations Dashboard
 
-This repository is systematically organized into core modules to track distinct technical competencies:
+This repository utilizes a nested architecture. Select a track below to enter its dedicated directory and view detailed daily logs, lab writeups, and artifact evidence.
 
-### 📑 1. Core Learning Logs
-*   [01-Pre-Security-Core-Modules.md](./01-Pre-Security-Core-Modules.md) — Comprehensive deep dives into Network Fundamentals, Web Mechanics, and System Virtualization.
+### 🧠 1. Core Systems & Network Architecture
+*Focused on operating system fundamentals, network protocols, command-line administration, and cryptographic basics.*
+*   **[View Core Logs & Writeups](./logs/core/)**
 
-### 📑 2. Daily Execution Logs (June 2026)
-*   [06-16-2026-OS-Windows-Fundamentals.md](./logs/06-16-2026-OS-Windows-Fundamentals.md) — Deep dive into OS architecture and Windows systems administration.
-*   [06-17-2026-CLI-Administration-Operations.md](./logs/06-17-2026-CLI-Administration-Operations.md) — Advanced command-line enumeration and system administration across Linux and Windows environments.
-*   [06-18-2026-OS-Security-Authentication.md](./logs/06-18-2026-OS-Security-Authentication.md) — Encrypted remote access, post-exploitation lateral movement, and Base-16 data architecture.
-*   [06-19-2026-Data-Encoding-Python-Basics.md](./logs/06-19-2026-Data-Encoding-Python-Basics.md) — Analysis of character encoding standards (Unicode/UTF) and Python programmatic control flows.
-### 🔍 2. Advanced Security Operations (Upcoming)
-*   `[02-SOC-Incident-Response.md]` — Traffic analysis (Wireshark), event investigation, and endpoint defensive log analysis.
-*   `[03-SIEM-Splunk-Triage.md]` — Threat hunting, continuous monitoring architecture, and alert management metrics.
+### 🔍 2. Security Operations & Defensive Triage
+*Focused on threat hunting, SIEM log analysis, traffic analysis (Wireshark), and incident response.*
+*   **[View SOC Logs & Writeups](./logs/soc/)**
+
+<!--
+### ⚙️ 3. Security Automation & Applied Python
+*Focused on memory-efficient data structures, custom API interaction, automated log parsing, and exception resilience.*
+*   **[View Python Automation Logs](./logs/python/)**
+
+### ⚔️ 4. Offensive Security & Exploit Engineering
+*Focused on network exploitation, vulnerability assessments, payload modification, and privilege escalation (eJPT Track).*
+*   **[View Offensive Operations Logs](./logs/offensive/)**
+-->
 
 ---
 
