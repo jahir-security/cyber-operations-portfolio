@@ -9,3 +9,4 @@ This directory contains foundational execution logs, focusing on operating syste
 *   [06-17-2026] [CLI-Administration-Operations](./06-17-2026-CLI-Administration-Operations.md)
 *   [06-18-2026] [OS-Security-Authentication](./06-18-2026-OS-Security-Authentication.md)
 *   [06-19-2026] [Data-Encoding-Python-Basics](./06-19-2026-Data-Encoding-Python-Basics.md)
+*   [06-20-2026] [Security-Principles-Cryptography](./06-20-2026-Security-Principles-Cryptography.md) — Finalization of Pre-Security path, covering DBMS/SQL, CIA triad, cryptographic systems, and offensive/defensive practical simulations.
