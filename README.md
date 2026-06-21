@@ -5,12 +5,13 @@ Welcome to my technical proof-of-work repository. I am actively developing pract
 ## 🏆 Certifications & Achievements
 *This section tracks my active examination targets, verified credentials, and platform progression.*
 
-**TryHackMe:** [View THM Profile](https://tryhackme.com/p/jahir.sec) | [View Badges](https://tryhackme.com/p/jahir.sec?tab=badges)
+**TryHackMe:** [View THM Profile](https://tryhackme.com/p/jahir.sec)
 
 *   **[View Certification Vault](./certifications/)**
 *   **CompTIA Security+ (SY0-701)** — *Target Date: August 2, 2026*
-*   **TryHackMe SEC0 (Pre-Security)** — *Path Completion Pending*
-*   **SOC Level 1** — *Active Track*
+*   **TryHackMe Pre-Security** — 🟢 *Completed & Verified* 
+*   **TryHackMe Cyber Security 101** — ⚡ *Active Track (Phase 1)*
+*   **SOC Level 1** — ⏳ *Upcoming Track (Phase 2)*
 
 ---
 
@@ -20,20 +21,15 @@ This repository utilizes a nested architecture. Select a track below to review d
 
 ### 🧠 1. Core Systems & Network Architecture
 *Focus: Operating systems, network protocols, DBMS architecture, CIA triad governance, programming logic overviews (Python/JS), and foundational offensive/defensive security postures.*
-* **[View Core Logs & Writeups](./logs/core/)**
-### 🔍 2. Security Operations & Defensive Triage
+*   **[View Core Logs & Writeups](./logs/core/)**
+
+### 🛡️ 2. Cyber Security 101 Foundations
+*Focus: Linux/Windows command-line mechanics, defensive infrastructure, SIEM fundamentals, intrusion detection systems, and tactical decoding using CyberChef.*
+*   **[View Cyber Security 101 Logs](./logs/cybersec101/)**
+
+### 🔍 3. Security Operations & Defensive Triage
 *Focus: Threat hunting, SIEM log analysis, traffic analysis (Wireshark), and incident response mechanics.*
-* **[View SOC Logs & Writeups](./logs/soc/)**
-
-<!--
-### ⚙️ 3. Security Automation & Applied Python
-*Focus: Memory-efficient data structures, custom API interaction, automated log parsing, and exception resilience.*
-*   **[View Python Automation Logs](./logs/python/)**
-
-### ⚔️ 4. Offensive Security & Exploit Engineering
-*Focus: Network exploitation, vulnerability assessments, payload modification, and privilege escalation (eJPT Track).*
-*   **[View Offensive Operations Logs](./logs/offensive/)**
--->
+*   **[View SOC Logs & Writeups](./logs/soc/)**
 
 ---
 
