@@ -19,12 +19,11 @@ Welcome to my technical proof-of-work repository. I am actively developing pract
 This repository utilizes a nested architecture. Select a track below to review detailed execution logs, daily lab writeups, and artifact evidence.
 
 ### 🧠 1. Core Systems & Network Architecture
-*Focus: Operating system fundamentals, network protocols, command-line administration, and cryptographic basics.*
-*   **[View Core Logs & Writeups](./logs/core/)**
-
+*Focus: Operating systems, network protocols, DBMS architecture, CIA triad governance, programming logic overviews (Python/JS), and foundational offensive/defensive security postures.*
+* **[View Core Logs & Writeups](./logs/core/)**
 ### 🔍 2. Security Operations & Defensive Triage
 *Focus: Threat hunting, SIEM log analysis, traffic analysis (Wireshark), and incident response mechanics.*
-*   **[View SOC Logs & Writeups](./logs/soc/)**
+* **[View SOC Logs & Writeups](./logs/soc/)**
 
 <!--
 ### ⚙️ 3. Security Automation & Applied Python
