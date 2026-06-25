@@ -1,31 +1,31 @@
-## Cryptography, Hashing and Basics of Hashcat and John the Ripper (Jumbo John) - [06-25-2026]
+## Cryptography, Hashing, and Basics of Hashcat and John the Ripper (Jumbo John) - [06-25-2026]
 
 ### What This Covers
-This room covers the basics of cryptography, including the working of public key ciphers like RSA and its application in SSH. It also introduces hash functions, their various types, and the basics of using password cracking tools like Hashcat and John the Ripper (Jumbo John).
+This room covers the basics of cryptography, including the workings of public key ciphers like RSA and their application in SSH. It also introduces hash functions, their various types, and the basics of using password-cracking tools like Hashcat and John the Ripper (Jumbo John).
 
 ### Key Concepts
-* Importance of cryptography 
-* History of cyphers 
-* Types of Encryption 
+* Importance of cryptography
+* History of ciphers
+* Types of Encryption
 * Basic mathematical understanding of cryptography
-* Use of Asymmetric Encryption 
-* RSA, Diffie Hellman Key Exchange 
+* Use of Asymmetric Encryption
+* RSA, Diffie-Hellman Key Exchange
 * SSH
 * Digital Signatures and Certificates
 * PGP and GPG
-* Hash Functions and its use cases
-* Hashing for integrity 
-* Password cracking using Hashcat 
+* Hash Functions and their use cases
+* Hashing for integrity
+* Password cracking using Hashcat
 * Using John the Ripper (Jumbo John) to crack: Basic Hashes, Windows Authentication Hashes, /etc/shadow Hashes
 * Single crack mode
-* Custom rules 
-* Cracking zip files, rar archives 
+* Custom rules
+* Cracking zip files and rar archives
 * Cracking SSH keys
 
 ### Commands/Tools Used
 ```bash
 hashcat -m <hash_type> -a <attack_mode> hashfile wordlist
-sha256sum 
+sha256sum
 ssh2john [id_rsa private key file] > [output file]
 john --wordlist=/usr/share/wordlists/rockyou.txt id_rsa_hash.txt
 python3 hash-id.py
