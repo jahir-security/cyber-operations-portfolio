@@ -24,6 +24,7 @@ This room covers the basics of cryptography, including the workings of public ke
 
 ### Commands/Tools Used
 ```bash
+#comands used:
 hashcat -m <hash_type> -a <attack_mode> hashfile wordlist
 sha256sum
 ssh2john [id_rsa private key file] > [output file]
