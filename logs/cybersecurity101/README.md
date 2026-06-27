@@ -7,3 +7,5 @@ This directory contains Phase 1 execution logs, bridging theoretical security co
 
 * [06-23-2026] [Linux-Fundamentals](./06-23-2026-Linux-Fundamentals.md) — Comprehensive execution of Linux CLI mechanics, covering file system navigation, remote SSH access, privilege escalation, and process automation.
 * [06-25-2026] [Cryptography-and-Hashing](./06-25-2026-Cryptography-Hashing.md) — Core principles of cryptography, public-key infrastructure, and practical password cracking operations using Hashcat and John the Ripper.
+* [06-26-2026] [Windows-Fundamentals](./06-26-2026-Windows-Fundamentals.md) — Essential foundations of Windows OS architecture, system utilities, registry management, and native security configurations like UAC and BitLocker.
+* [06-27-2026] [Search-Skills-Networking](./06-27-2026-Search-Skills-Networking.md) — Cybersecurity research utilizing OSINT tools alongside a deep dive into core networking principles, OSI/TCP models, and network protocols.
