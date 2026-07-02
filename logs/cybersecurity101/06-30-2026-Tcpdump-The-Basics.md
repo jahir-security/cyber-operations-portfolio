@@ -14,3 +14,22 @@ This room covers how to capture and analyze network traffic directly from the co
 ### Commands/Tools Used
 ```bash
 tcpdump -q
+
+tcpdump -i wlo1 -w data.pcap
+
+tcpdump -i eth0 -c 50 -v
+
+tcpdump -i any -nn
+
+sudo tcpdump host example.com -w http.pcap
+
+sudo tcpdump -i ens5 port 53 -n
+
+sudo tcpdump -i ens5 icmp -n
+
+tcpdump -r traffic.pcap greater 15000 -c 1 -n
+
+tcpdump -r traffic.pcap "tcp[tcpflags] == tcp-rst" | wc -l
+```
+### What I Learned
+I learned how to perform command-line packet analysis without relying on a GUI tool like Wireshark. I gained hands-on experience controlling output formats, allowing me to view raw packet bytes in hex or read readable text via ASCII. Most importantly, I learned how to build advanced filtering expressions to isolate specific stages of a TCP handshake by targeting flags like SYN and ACK directly at the byte level.
