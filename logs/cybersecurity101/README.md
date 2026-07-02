@@ -1,4 +1,3 @@
-
 # 🛡️ Cyber Security 101: Foundations & Hybrid Tactics
 
 This directory contains Phase 1 execution logs, bridging theoretical security concepts with applied mechanics. The focus here is on operating system administration, offensive tooling, and defensive infrastructure triage.
@@ -10,3 +9,8 @@ This directory contains Phase 1 execution logs, bridging theoretical security co
 * [06-26-2026] [Windows-Fundamentals](./06-26-2026-Windows-Fundamentals.md) — Essential foundations of Windows OS architecture, system utilities, registry management, and native security configurations like UAC and BitLocker.
 * [06-27-2026] [Search-Skills-Networking](./06-27-2026-Search-Skills-Networking.md) — Cybersecurity research utilizing OSINT tools alongside a deep dive into core networking principles, OSI/TCP models, and network protocols.
 * [06-29-2026] [Wireshark-Basics-and-Analysis](./06-29-2026-Wireshark-Basics-and-Analysis.md) — Practical network traffic analysis utilizing Wireshark for advanced packet filtering, stream reconstruction, TLS decryption, and raw data extraction.
+* [06-30-2026] [Tcpdump-The-Basics](./06-30-2026-Tcpdump-The-Basics.md) — Command-line packet capture and analysis, utilizing advanced BPF syntax to filter traffic by specific TCP flags and byte offsets.
+
+## 📑 July 2026 Execution Logs
+
+* [07-01-2026] [Nmap-The-Basics](./07-01-2026-Nmap-The-Basics.md) — Network reconnaissance covering host discovery, TCP connect vs. SYN scans, timing templates, and service version detection.
