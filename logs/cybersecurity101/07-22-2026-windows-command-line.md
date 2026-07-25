@@ -22,14 +22,14 @@ ver
 systeminfo
 driverquery | more
 
-* Network Troubleshooting:
+# Network Troubleshooting:
 ipconfig /all
 ping example.com
 tracert example.com
 nslookup example.com 1.1.1.1
 netstat -abon
 
-* File and Disk Management:
+# File and Disk Management:
 cd
 dir /a
 dir /s
@@ -42,11 +42,11 @@ move
 erase
 del
 
-* Task and Process Management:
+# Task and Process Management:
 tasklist /FI "imagename eq sshd.exe"
 taskkill /PID [target_pid]
 
-* Maintenance:
+# Maintenance:
 chkdsk
 sfc /scannow
 shutdown /s
