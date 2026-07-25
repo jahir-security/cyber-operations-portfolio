@@ -16,7 +16,7 @@ This execution log documents my hands-on practice with the default Windows comma
 ## Commands/Tools Used
 
 ```bash
-* System Information:
+# System Information:
 set
 ver
 systeminfo
