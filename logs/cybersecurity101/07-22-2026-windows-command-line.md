@@ -22,7 +22,7 @@ ver
 systeminfo
 driverquery | more
 
-### Network Troubleshooting:
+Network Troubleshooting:
 ipconfig /all
 ping example.com
 tracert example.com
