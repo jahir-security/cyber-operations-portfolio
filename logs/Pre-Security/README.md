@@ -6,7 +6,7 @@ Execution logs tracking the foundational TryHackMe Pre-Security path. This cover
 
 | Date | Topic | Key Tools/Concepts |
 | ---- | ----- | ------------------ |
-| N/A | [Pre-Security Core Modules](./01-Pre-Security-Core-Modules.md) | Foundational IT Concepts |
+| 06-02-2026 to 06-15-2026| [Pre-Security Core Modules](./01-Pre-Security-Core-Modules.md) | Foundational IT Concepts |
 | 06-16-2026 | [OS Windows Fundamentals](./06-16-2026-OS-Windows-Fundamentals.md) | Windows OS Basics |
 | 06-17-2026 | [CLI Administration Operations](./06-17-2026-CLI-Administration-Operations.md) | Command Line Administration |
 | 06-18-2026 | [OS Security Authentication](./06-18-2026-OS-Security-Authentication.md) | Authentication Basics |
