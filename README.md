@@ -2,7 +2,7 @@
 
 Welcome to my technical proof-of-work repository. I am actively developing practical expertise in network defense, systems administration, and security operations. This space serves as a verifiable, honest log of my hands-on execution and daily lab progression as I build towards an entry-level SOC Analyst role.
 
-**Professional Profiles:**
+## Professional Profiles:
 * **LinkedIn:** [Jahir Ahmed Mollah](https://linkedin.com/in/jahir-ahmed)
 * **TryHackMe:** [View THM Profile](https://tryhackme.com/p/jahir.sec)
 
