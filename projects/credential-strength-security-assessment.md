@@ -2,7 +2,7 @@
 
 **Date:** 07-29-2026
 
-**Environment:** Controlled lab environment with real life simulation.
+**Environment:** Controlled lab environment with simulated scenario.
 
 ---
 
