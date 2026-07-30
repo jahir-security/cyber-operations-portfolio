@@ -1,4 +1,4 @@
-# 📂 Cybersecurity Projects & Tooling
+# 📂 Cybersecurity Projects
 
 This serves as a consolidated proof of my hands-on cybersecurity work. It encompasses in-depth security assessments, incident response documentation, homelab infrastructure builds, and custom automation scripts.
 
