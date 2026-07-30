@@ -41,10 +41,8 @@ python3 hash-id.py
 # John the Ripper (Jumbo John) - dictionary attack
 john --format=[hash format] --wordlist=[path to wordlist rockyou.txt] [path to the hash file]
 
-# Hashcat - brute-force attack
+# Hashcat - brute-force attack (using man hashcat to find the hash type code to use. eg. -m 1000)
 hashcat -m <hash_type_code> -a 3 <path_to_hash_file> <mask>
-
-*using man hashcat to find the hash type code to use. eg. -m 1000*
 
 ```
 
