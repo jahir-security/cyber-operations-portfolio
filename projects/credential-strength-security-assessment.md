@@ -1,6 +1,7 @@
 # Security Assessment Report: Credential Strength via Password Hash Analysis
 
 **Date:** 07-29-2026
+
 **Environment:** Controlled lab environment with real life simulation.
 
 ---
