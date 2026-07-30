@@ -61,7 +61,7 @@ hashcat -m <hash_type_code> -a 3 <path_to_hash_file> <mask>
 | :--- | :--- | :--- | :--- | :--- |
 | `msfadmin` | `$1$XN10Zj2c$Rt/Ih5CG1J1P0A4A0B7x.` | MD5crypt (Linux `$1$`) | `msfadmin` | Dictionary (`rockyou.txt`) |
 | `user1` | `$1$O3JMY.Tj$q/E4hG9V3d0i0zE1kR28B/` | MD5crypt (Linux `$1$`) | `qwerty` | Dictionary (`rockyou.txt`) |
-| `service` | `$1$28772684$iEwNO1bZIMSRgXCsvOxoI/` | MD5crypt (Linux `$1$`) | `hashcat` | Brute-Force / Mask (`-a 3`) |
+| `service` | `$1$6ff3402b$2w6aUd7n//XodMXDt84BE1` | MD5crypt (Linux `$1$`) | `admin` | Brute-Force / Mask (`?l?l?l?l?l`) |
 | `root` | `$6$T1qN.4tW$s/PZ0y5xL3m3rC7k0Q8j7B5h6Y1d4W2x6V0z9T3n8L5p1M7k4F0c3V9b2X5g8Z1y4R7t0D6m5J2l8H5n.` | SHA512crypt (Linux `$6$`) | *[Uncracked]* | Resisted both methods |
 
 ---
