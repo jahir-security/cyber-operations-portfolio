@@ -1,4 +1,4 @@
-# 🏆 Certification & Credential Vault
+# 🏆 Certifications & Credentials Vault
 
 This directory acts as the centralized repository for verified credentials, path completions, and active examination targets.
 
