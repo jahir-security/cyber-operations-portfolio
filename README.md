@@ -9,7 +9,7 @@ Welcome to my technical proof-of-work repository. I am actively developing pract
 
 ## Certifications & Credentials
 
-* **[View Certifications & Credentials Vault](./certifications/)**
+* **[View Certifications & Credentials Vault](./certifications&credentials/)**
 
 ## Repository Architecture
 
