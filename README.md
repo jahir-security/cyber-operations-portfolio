@@ -7,9 +7,9 @@ Welcome to my technical proof-of-work repository. I am actively developing pract
 * **LinkedIn:** [Jahir Ahmed Mollah](https://linkedin.com/in/jahir-ahmed)
 * **TryHackMe:** [View THM Profile](https://tryhackme.com/p/jahir.sec)
 
-## Certifications
+## Certifications & Credentials
 
-* **[View Certification & Credential Vault](./certifications/)**
+* **[View Certifications & Credentials Vault](./certifications/)**
 
 ## Repository Architecture
 
