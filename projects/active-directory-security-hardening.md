@@ -1,6 +1,6 @@
 # Security Hardening Report: Active Directory Restructuring & Group Policy Implementation
 
-**Date:** 10-08-2026  
+**Date:** 08-10-2026  
 
 **Environment:** Controlled lab environment — Windows Server domain controller (THM.local), simulating a small business AD environment.
 
