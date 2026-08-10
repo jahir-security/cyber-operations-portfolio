@@ -6,10 +6,10 @@ Whether I am investigating an attack, analyzing SIEM logs, or developing Python 
 
 ## 📋 Project Directory
 
-| Project | Core Tech & Frameworks | Description |
-| :--- | :--- | :--- |
-| **[Active Directory Security Hardening](./active-directory-security-hardening.md)** | Active Directory, Group Policy, PowerShell, MITRE M1026 | Restructured a simulated AD domain, implemented least-privilege delegation, and enforced strict access control GPOs to eliminate administrative drift. |
-| **[Security Assessment: Credential Strength via Hash Analysis](./credential-strength-security-assessment.md)** | Hashcat, John the Ripper, MITRE T1110 | Analyzed password hash strength to identify vulnerable credentials and provided policy enforcement recommendations. |
+| Date | Project | Core Tech & Frameworks | Description |
+| :--- | :--- | :--- | :--- |
+| **Aug 2026** | **[Active Directory Security Hardening](./active-directory-security-hardening.md)** | Active Directory, Group Policy, PowerShell | Restructured a simulated AD domain, implemented least-privilege delegation, and enforced strict access control GPOs to eliminate administrative drift. |
+| **Jul 2026** | **[Security Assessment: Credential Strength via Hash Analysis](./credential-strength-security-assessment.md)** | Hashcat, John the Ripper, MITRE T1110 | Analyzed password hash strength to identify vulnerable credentials and provided policy enforcement recommendations. |
 
 ---
 *Note: This directory is actively updated as I develop new scripts, build infrastructure, and conduct threat simulations.*
