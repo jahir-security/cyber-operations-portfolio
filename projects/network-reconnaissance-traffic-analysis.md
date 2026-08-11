@@ -26,7 +26,7 @@ This scan identified 6 open TCP ports on the target system (21, 22, 80, 111, 139
 
 **Investigating the Exposed Web Service**
 
-Since the port scan revealed an active web server on port 80 (`Apache httpd 2.4.29`), I accessed it directly via a web browser to determine what it exposed. This confirmed the service was serving a default login portal without any network-level authentication barrier — a finding worth flagging in a real assessment, since an exposed web service on an internal network increases attack surface unnecessarily.
+Since the port scan revealed an active web server on port 80 (`Apache httpd 2.4.29`), I accessed it directly via a web browser to determine what it exposed. This confirmed the service was serving a login portal over unencrypted HTTP rather than HTTPS — a finding worth flagging in a real assessment, since transmitting an authentication mechanism over cleartext HTTP exposes any submitted credentials in transit, regardless of how strong the password itself is.
 
 **Traffic Capture with tcpdump**
 
@@ -34,11 +34,11 @@ To validate what the port scan found and capture supporting evidence, I used tcp
 
 **Deep Packet Inspection with Wireshark**
 
-With the `.pcap` captured, I moved to Wireshark for deeper protocol-level inspection than tcpdump's command-line output allows. Using the "Follow HTTP Stream" feature, I reconstructed the full application-layer conversation for the web traffic — this is a critical step, since it revealed the actual data being transmitted in cleartext, not just the fact that a connection existed. 
+With the `.pcap` captured, I moved to Wireshark for deeper protocol-level inspection than tcpdump's command-line output allows. Using the "Follow HTTP Stream" feature, I reconstructed the full application-layer conversation for the web traffic — this is a critical step, since it revealed the actual data being transmitted in cleartext, not just the fact that a connection existed.
 
-Because HTTP (unlike HTTPS) transmits data unencrypted, anyone capturing this traffic on the same network segment could read the exact content being exchanged. I confirmed this directly by reconstructing a captured `POST /login.php` request, which exposed the transmitted credentials (`username=admin&password=password123`) in plain text. 
+Because HTTP (unlike HTTPS) transmits data unencrypted, anyone capturing this traffic on the same network segment could read the exact content being exchanged. I confirmed this directly by reconstructing a captured `POST /login.php` request, which exposed the transmitted credentials (`username=admin&password=password123`) in plain text, despite the login mechanism itself functioning as intended.
 
-I also reviewed Wireshark's Expert Information panel, which automatically flags anomalies. It highlighted multiple "TCP Retransmission" and "Duplicate ACK" warnings—common in virtualized lab networks—useful as a fast triage step before manually inspecting packets.
+I also reviewed Wireshark's Expert Information panel, which automatically flags anomalies. It highlighted multiple "TCP Retransmission" and "Duplicate ACK" warnings — common in virtualized lab networks — useful as a fast triage step before manually inspecting packets.
 
 ---
 
@@ -70,7 +70,7 @@ sudo tcpdump port 53 -n
 - Host discovery via ARP-based ping scan confirmed the target host (`10.10.155.84`) was live on the local network segment without triggering a full port scan.
 - SYN scan identified 6 open TCP ports on the target system (21/FTP, 22/SSH, 80/HTTP, 111/rpcbind, 139/netbios-ssn, 445/netbios-ssn).
 - Version/OS detection identified the specific web service (`Apache httpd 2.4.29`) and underlying OS family (`Ubuntu Linux`), providing enough detail to cross-reference against known vulnerabilities in a real assessment.
-- Reconstructing the HTTP stream in Wireshark confirmed that application data was transmitted entirely in cleartext. A captured `POST` request revealed user credentials exposed in transit, highlighting the danger of utilizing unencrypted HTTP protocols on internal networks.
+- The web service's login mechanism operated over unencrypted HTTP rather than HTTPS. Reconstructing the HTTP stream in Wireshark confirmed that a submitted login request transmitted user credentials in cleartext, exposing them to anyone capturing traffic on the same network segment.
 - Expert Information flagged a notable number of TCP retransmission warnings during the capture, indicating protocol-level anomalies worth manual follow-up in a real engagement rather than dismissing as noise.
 
 ---
@@ -85,4 +85,4 @@ sudo tcpdump port 53 -n
 
 ## Analyst Notes
 
-This assessment reinforced why network reconnaissance findings need to be paired with traffic analysis, not treated as separate exercises — a port scan tells you a service exists, but only packet-level inspection confirms *how* that service handles data in practice. The discovery of cleartext HTTP traffic carrying readable application data is a common and easily overlooked risk in internal networks, since many organizations assume internal traffic doesn't need encryption. In a real environment, I would recommend enforcing HTTPS/TLS for all web-facing services regardless of whether they're internal or external, and treating unauthenticated, exposed services as a priority remediation item rather than a low-severity finding.
+This assessment reinforced why network reconnaissance findings need to be paired with traffic analysis, not treated as separate exercises — a port scan tells you a service exists, but only packet-level inspection confirms *how* that service handles data in practice. The discovery of cleartext HTTP traffic carrying readable login credentials is a common and easily overlooked risk, since a working authentication mechanism can still leave data fully exposed if the underlying transport isn't encrypted. In a real environment, I would recommend enforcing HTTPS/TLS for all web-facing login services regardless of whether they're internal or external, and treating cleartext credential transmission as a priority remediation item rather than a low-severity finding.
