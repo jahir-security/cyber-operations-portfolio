@@ -8,6 +8,7 @@ Whether I am investigating an attack, analyzing SIEM logs, or developing Python 
 
 | Date | Project | Core Tech & Frameworks | Description |
 | :--- | :--- | :--- | :--- |
+| **Aug 2026** | **[Security Assessment: Network Reconnaissance & Traffic Analysis](./network-reconnaissance-traffic-analysis.md)** | Nmap, tcpdump, Wireshark | Executed targeted host discovery and port scanning to map network topology, and captured traffic to identify unencrypted credential exposure. |
 | **Aug 2026** | **[Active Directory Security Hardening](./active-directory-security-hardening.md)** | Active Directory, Group Policy, PowerShell | Restructured a simulated AD domain, implemented least-privilege delegation, and enforced strict access control GPOs to eliminate administrative drift. |
 | **Jul 2026** | **[Security Assessment: Credential Strength via Hash Analysis](./credential-strength-security-assessment.md)** | Hashcat, John the Ripper, MITRE T1110 | Analyzed password hash strength to identify vulnerable credentials and provided policy enforcement recommendations. |
 
