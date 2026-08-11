@@ -68,7 +68,7 @@ gpupdate /force
 ## MITRE ATT&CK Mapping
 
 *   **[M1026] Privileged Account Management (Mitigation)** — Delegation of limited administrative rights rather than broad privilege grants.
-*   **[M1035] Limit Access to Resource Over Network (Mitigation)** — Control Panel restriction and OU-based policy segmentation.
+*   **[M1018] User Account Management (Mitigation)** — Restriction of standard user privileges via GPO to prevent unauthorized system configuration changes (Control Panel access).
 
 ---
 
