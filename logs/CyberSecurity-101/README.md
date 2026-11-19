@@ -20,3 +20,4 @@ Execution logs tracking operating system administration, offensive tooling, and 
 | 07-24-2026 | [Moniker Link CVE-2024-21413](./07-24-2026-moniker-link-cve-2024-21413.md) | CVE-2024-21413, NTLMv2 Leak, Responder, YARA |
 | 11-16-2026 | [Metasploit Framework Foundation](./11-16-2026-Metasploit-Framework-Foundation.md) | msfconsole, Exploit Modules, Sessions |
 | 11-19-2026 | [Linux Meterpreter Payload & Post-Exploitation](./11-19-2026-Linux-Meterpreter-Payload&Post-Exploitation.md) | msfvenom, multi/handler, Meterpreter, Hashdump |
+| 11-19-2026 | [Metasploit Meterpreter](./11-19-2026-Metasploit-Meterpreter.md) | Meterpreter, Process Migration, Hashdump, Kiwi |
