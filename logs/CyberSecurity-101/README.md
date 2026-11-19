@@ -18,5 +18,5 @@ Execution logs tracking operating system administration, offensive tooling, and 
 | 07-22-2026 | [Windows Command Line](./07-22-2026-windows-command-line.md) | cmd.exe, System Enumeration, netstat |
 | 07-23-2026 | [Windows PowerShell](./07-23-2026-windows-powershell.md) | Cmdlets, Object Piping, Remote Execution |
 | 07-24-2026 | [Moniker Link CVE-2024-21413](./07-24-2026-moniker-link-cve-2024-21413.md) | CVE-2024-21413, NTLMv2 Leak, Responder, YARA |
-| 11-16-2026 | [Metasploit Framework Foundation](./11-16-2026-Metasploit-Framework-Foundation) | msfconsole, Exploit Modules, Sessions |
-| 11-19-2026 | [Linux Meterpreter Payload & Post-Exploitation](./11-19-2026-Linux-Meterpreter-Payload&Post-Exploitation) | msfvenom, multi/handler, Meterpreter, Hashdump |
+| 11-16-2026 | [Metasploit Framework Foundation](./logs/CyberSecurity-101/11-16-2026-Metasploit-Framework-Foundation.md) | msfconsole, Exploit Modules, Sessions |
+| 11-19-2026 | [Linux Meterpreter Payload & Post-Exploitation](./logs/CyberSecurity-101/11-19-2026-Linux-Meterpreter-Payload&Post-Exploitation.md) | msfvenom, multi/handler, Meterpreter, Hashdump |
