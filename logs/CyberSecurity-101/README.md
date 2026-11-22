@@ -21,3 +21,7 @@ Execution logs tracking operating system administration, offensive tooling, and 
 | 11-16-2026 | [Metasploit Framework Foundation](./11-16-2026-Metasploit-Framework-Foundation.md) | msfconsole, Exploit Modules, Sessions |
 | 11-19-2026 | [Linux Meterpreter Payload & Post-Exploitation](./11-19-2026-Linux-Meterpreter-Payload&Post-Exploitation.md) | msfvenom, multi/handler, Meterpreter, Hashdump |
 | 11-19-2026 | [Metasploit Meterpreter](./11-19-2026-Metasploit-Meterpreter.md) | Meterpreter, Process Migration, Hashdump, Kiwi |
+| 11-20-2026 | [Blue](./11-20-2026-Blue.md) | EternalBlue (MS17-010), SMB, Metasploit, Meterpreter, Hashdump |
+| 11-21-2026 | [JavaScript Essentials](./11-21-2026-JavaScript-Essentials.md) | JavaScript, DOM, Client-Side Security, Minification, Obfuscation |
+| 11-21-2026 | [SQL Fundamentals](./11-21-2026-SQL-Fundamentals.md) | MySQL, SQL Queries, CRUD, Clauses, Operators, Functions |
+| 11-22-2026 | [Web Application Basics](./11-22-2026-Web-Application-Basics.md) | HTTP, URLs, Request Methods, Status Codes, Security Headers |
