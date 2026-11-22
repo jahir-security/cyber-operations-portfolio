@@ -1,4 +1,4 @@
-# JavaScript Essentials - [10-22-2026]
+# JavaScript Essentials - [11-21-2026]
 
 ## What This Covers
 
