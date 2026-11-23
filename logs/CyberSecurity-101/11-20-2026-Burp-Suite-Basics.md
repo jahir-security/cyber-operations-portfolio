@@ -1,4 +1,4 @@
-# Burp Suite Basics - [11-22-2026]
+# Burp Suite Basics - [11-20-2026]
 
 ## What This Covers
 
