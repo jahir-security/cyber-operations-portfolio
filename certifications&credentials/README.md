@@ -13,8 +13,8 @@ This directory acts as the centralized repository for verified credentials, path
 
 ## 🎯 Active Targets
 
-* **TryHackMe Cyber Security 101** — *Target: August 14, 2026*
-* **TryHackMe SOC Level 1** — *Target: Mid-September 2026*
+* **TryHackMe Cyber Security 101** — *Target: December 2, 2026*
+* **TryHackMe SOC Level 1** — *Target: January 3, 2027*
 
 ---
 [← Back to Master Operations Dashboard](../README.md)
