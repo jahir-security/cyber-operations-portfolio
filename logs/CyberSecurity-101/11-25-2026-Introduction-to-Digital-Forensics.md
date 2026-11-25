@@ -16,9 +16,11 @@ This lab room provides an understanding of digital forensics and an overview of 
 
 ## Commands and tools used
 
-### Basic concept of FTK imager, autopsy, volatility 
+
 
 ```bash
+# Basic concept of FTK imager, autopsy, volatility
+
 # To get metadata of a pdf
 pdfinfo document.pdf
 
