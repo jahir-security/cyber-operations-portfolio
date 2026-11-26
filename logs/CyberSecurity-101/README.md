@@ -28,9 +28,11 @@ Execution logs tracking operating system administration, offensive tooling, and 
 | 11-22-2026 | [Gobuster](./11-22-2026-Gobuster.md) | Directory Enumeration, DNS Enumeration, Virtual Hosts |
 | 11-22-2026 | [Hydra](./11-22-2026-Hydra.md) | Hydra, SSH, FTP, HTTP POST Form, Password Attacks |
 | 11-22-2026 | [Web Application Basics](./11-22-2026-Web-Application-Basics.md) | HTTP, URLs, Request Methods, Status Codes, Security Headers |
-| 11-23-2026 | [SOC Introduction](./11-23-2026-SOC-introduction.md) | SOC, SIEM, EDR, Alert Triage, Incident Response |
 | 11-23-2026 | [SQLMap](./11-23-2026-SQLMap.md) | SQL Injection, SQLMap, Database Enumeration, Data Extraction |
 | 11-23-2026 | [Shells](./11-23-2026-Shells.md) | Reverse Shells, Bind Shells, Netcat, Socat, Web Shells |
+| 11-23-2026 | [SOC Introduction](./11-23-2026-SOC-introduction.md) | SOC, SIEM, EDR, Alert Triage, Incident Response |
 | 11-25-2026 | [Introduction to Digital Forensics](./11-25-2026-Introduction-to-Digital-Forensics.md) | Digital Forensics tools, conecpts |
 | 11-25-2026 | [Introduction to Incident Response](./11-25-2026-Introduction-to-Incident-Response.md) | Incident Response frameworks and concepts of playbooks, runbooks |
 | 11-25-2026 | [Log Fundamentals](./11-25-2026-Log-Fundamentals.md) | Understanding different types of logs and their usecases |
+| 11-26-2026 | [Introduction to SIEM](./11-26-2026-Introduction-to-SIEM.md) | Security Information and Event Management basics |
+| 11-26-2026 | [Fundamentals of Firewalls](./11-26-2026-Fundamentals-of-Firewalls.md) | Types of firewalls and configuring firewalls |
