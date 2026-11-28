@@ -38,3 +38,4 @@ Execution logs tracking operating system administration, offensive tooling, and 
 | 11-26-2026 | [Fundamentals of Firewalls](./11-26-2026-Fundamentals-of-Firewalls.md) | Types of firewalls and configuring firewalls |
 | 11-27-2026 | [Introduction to Snort](11-27-2026-Introduction-to-Snort.md) | Snort, IDS, HIDS, NIDS, Signature-Based Detection, Custom Rules, PCAP Analysis |
 | 11-28-2026 | [Vulnerability Scanner Overview](11-28-2026-Vulnerability-Scanner-Overview.md) | OpenVAS, Nessus, Qualys, Nexpose, CVE, CVSS, Vulnerability Scanning |
+| 11-28-2026 | [CyberChef Basics](11-28-2026-CyberChef-Basics.md) | CyberChef, Base64, Base85, Base58, Base62, URL Encoding/Decoding, Data Extraction, UNIX Timestamps |
