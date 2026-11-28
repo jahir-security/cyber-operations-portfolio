@@ -36,3 +36,5 @@ Execution logs tracking operating system administration, offensive tooling, and 
 | 11-25-2026 | [Log Fundamentals](./11-25-2026-Log-Fundamentals.md) | Understanding different types of logs and their usecases |
 | 11-26-2026 | [Introduction to SIEM](./11-26-2026-Introduction-to-SIEM.md) | Security Information and Event Management basics |
 | 11-26-2026 | [Fundamentals of Firewalls](./11-26-2026-Fundamentals-of-Firewalls.md) | Types of firewalls and configuring firewalls |
+| 11-27-2026 | [Introduction to Snort](11-27-2026-Introduction-to-Snort.md) | Snort, IDS, HIDS, NIDS, Signature-Based Detection, Custom Rules, PCAP Analysis |
+| 11-28-2026 | [Vulnerability Scanner Overview](11-28-2026-Vulnerability-Scanner-Overview.md) | OpenVAS, Nessus, Qualys, Nexpose, CVE, CVSS, Vulnerability Scanning |
